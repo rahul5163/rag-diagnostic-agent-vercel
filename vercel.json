@@ -7,11 +7,5 @@
     {
       "handle": "filesystem"
     }
-  ],
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.12"
-    }
-  },
-  "buildCommand": "pip install -r requirements.txt"
+  ]
 }
