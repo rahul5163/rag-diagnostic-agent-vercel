@@ -18,7 +18,8 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:10000/query", {
+      /*const res = await fetch("http://127.0.0.1:10000/query", { */
+      const res = await fetch("/api/query", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
