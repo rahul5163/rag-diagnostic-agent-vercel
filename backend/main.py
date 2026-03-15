@@ -8,7 +8,7 @@ from backend.app.v2_rerank.agent import build_agent
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/health")
 def health():
     return {"status": "agent running"}
 
