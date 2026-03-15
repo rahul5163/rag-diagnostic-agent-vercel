@@ -1,9 +1,9 @@
 fastapi
 uvicorn
 
-langchain==0.2.16
-langchain-core==0.2.43
-langchain-community==0.2.17
+langchain
+langchain-community
+langchain-core
 
 langchain-cohere
 cohere

@@ -6,7 +6,8 @@ from pinecone import ServerlessSpec
 
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
-from langchain.retrievers.contextual_compression import ContextualCompressionRetriever
+#from langchain.retrievers.contextual_compression import ContextualCompressionRetriever
+from langchain_community.retrievers import ContextualCompressionRetriever
 from langchain_cohere import CohereRerank
 
 from backend.app.data_loader import load_item_documents, load_kb_documents
