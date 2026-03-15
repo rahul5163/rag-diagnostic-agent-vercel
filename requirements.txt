@@ -1,6 +1,5 @@
 fastapi
 uvicorn
-dotenv
 
 langchain==0.2.16
 langchain-core==0.2.43
@@ -13,6 +12,8 @@ langchain-cohere
 cohere
 
 tavily-python
+
+python-dotenv
 
 numpy
 pydantic
