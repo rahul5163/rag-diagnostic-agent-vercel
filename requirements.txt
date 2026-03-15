@@ -15,6 +15,7 @@ tavily-python
 
 python-dotenv
 pinecone
+langchain-pinecone
 
 numpy
 pydantic
