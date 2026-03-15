@@ -1,0 +1,722 @@
+[
+  {
+    "question": "What is the click-through rate for item ITEM_001?",
+    "ground_truth": "1.33%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "What might be the reason for ITEM_001 having a high number of impressions but zero estimated sales?",
+    "ground_truth": "Despite having 1319 impressions, ITEM_001's low click-through rate of 1.33% and average search rank of 52 suggest that it may not be appealing enough to convert views into sales.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "Given the low click-through rate and zero estimated sales for ITEM_001, what could be the primary reason for its poor performance despite having a reasonable number of impressions?",
+    "ground_truth": "The low click-through rate suggests that the item may not be appealing to users, possibly due to poor visibility, uncompetitive pricing, or lack of differentiation from similar items, which is further supported by the similar item overlap score of 0.65 indicating significant competition.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "Given that ITEM_001 has a click-through rate of 1.33% and a conversion rate of 2.4%, what can be inferred about its sales performance despite having 1319 impressions?",
+    "ground_truth": "The item has not generated any sales despite having impressions, indicating potential issues with product appeal or pricing.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "Given the impressions, click-through rate, and conversion rate for ITEM_001, what factors might be contributing to its total estimated sales being 0 units despite having a reasonable number of impressions?",
+    "ground_truth": "The low click-through rate (1.33%) suggests that the item is not appealing enough to users based on its search rank (52) and possibly its presentation. Additionally, the conversion rate (2.4%) indicates that even when users do click, they are not converting into sales, which could be due to factors such as pricing, product quality perception, or competition. The similar item overlap score (0.65) indicates moderate competition, which may also affect sales.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "Given the low click-through rate and conversion rate for ITEM_001, how might the average search rank and similar item overlap score contribute to its total estimated sales of 0 units?",
+    "ground_truth": "The average search rank of 52 suggests that ITEM_001 is not prominently displayed in search results, which could lead to a low click-through rate of 1.33%. Additionally, a similar item overlap score of 0.65 indicates that there are competing items that may be drawing potential customers away, further impacting the conversion rate of 2.4% and resulting in 0 estimated sales.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_001 in the Wireless Headphones category given its current metrics?",
+    "ground_truth": "To improve sales performance, consider enhancing visibility through better search ranking, optimizing the product listing for higher click-through rates, and addressing potential issues in the conversion process.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "What strategic adjustments can be made to improve the sales performance of ITEM_001 in the Wireless Headphones category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the product's visibility through better search ranking, optimizing the product listing for higher engagement, and exploring targeted marketing strategies to increase conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "What strategic changes should be implemented to improve the sales performance of ITEM_001 in the Wireless Headphones category, given its low conversion rate despite a reasonable click-through rate and significant impressions?",
+    "ground_truth": "To improve sales performance, consider enhancing product visibility through better search ranking, optimizing the product listing for higher conversion, and analyzing customer feedback to address potential barriers to purchase.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_002 in the Kitchen Blenders category?",
+    "ground_truth": "1.77%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "What might be the reason for ITEM_002's low conversion rate despite having a reasonable number of impressions?",
+    "ground_truth": "The low conversion rate could be attributed to the high average search rank of 42, which may indicate that the item is not prominently featured in search results, leading to lower engagement and sales despite the impressions.",
+    "diagnosis_category": "Conversion Rate Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "Given the low click-through rate and conversion rate for ITEM_002, what could be the primary reason for its lack of sales despite having a significant number of impressions?",
+    "ground_truth": "The low click-through rate and conversion rate suggest that ITEM_002 may not be appealing to customers, possibly due to poor product positioning, inadequate marketing, or strong competition, as indicated by the similar item overlap score of 0.26.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "What is the relationship between the click-through rate and the conversion rate for ITEM_002, and how does this impact its estimated sales?",
+    "ground_truth": "The click-through rate of 1.77% is relatively low, and with a conversion rate of 0.75%, it indicates that despite some interest (impressions), the item is not converting to sales, resulting in 0 estimated sales.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "Given the low click-through rate and conversion rate for ITEM_002, what factors might be contributing to its poor sales performance despite having a significant number of impressions?",
+    "ground_truth": "The low click-through rate (1.77%) suggests that the item may not be appealing to users based on its search rank (42) or presentation. Additionally, the conversion rate (0.75%) indicates that even when users click on the item, they are not purchasing it, which could be due to factors such as pricing, product quality, or competition. The similar item overlap score (0.26) indicates that there are other items in the category that may be more appealing, further impacting sales.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "Given the low click-through rate and conversion rate for ITEM_002, how might the average search rank and similar item overlap score contribute to its total estimated sales of 0 units?",
+    "ground_truth": "The average search rank of 42 suggests that ITEM_002 is not prominently displayed in search results, which could lead to a low click-through rate of 1.77%. Additionally, a similar item overlap score of 0.26 indicates that there are many competing items, which may dilute visibility and interest, further contributing to the lack of sales despite having impressions.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_002 in the Kitchen Blenders category given its current low conversion rate?",
+    "ground_truth": "Increase marketing efforts, optimize product listing for better visibility, and consider adjusting pricing or promotions to enhance appeal.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "What strategic changes could be implemented to improve the sales performance of ITEM_002 in the Kitchen Blenders category given its low conversion rate despite a reasonable number of impressions?",
+    "ground_truth": "To improve sales performance, consider enhancing product visibility through better search ranking, optimizing the product listing for higher engagement, and analyzing customer feedback to address potential barriers to conversion.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "What strategic changes should be implemented to improve the sales performance of ITEM_002 in the Kitchen Blenders category given its low conversion rate and high search rank?",
+    "ground_truth": "Consider optimizing the product listing, enhancing marketing efforts, and analyzing competitor pricing to increase visibility and conversion rates.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_003?",
+    "ground_truth": "2.18%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_003 given its impressions and conversion rate?",
+    "ground_truth": "29 units sold based on 20226 impressions and a conversion rate of 6.59%.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "Given the low click-through rate of 2.18% and the average search rank of 6 for ITEM_003, what could be the potential reasons for its low conversion rate of 6.59% despite having 20226 impressions?",
+    "ground_truth": "The low conversion rate may be attributed to factors such as poor product presentation, lack of competitive pricing, or insufficient product information, which could deter customers from completing their purchases despite the item being visible in search results.",
+    "diagnosis_category": "Conversion Optimization",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_003 in relation to its impressions and click-through rate?",
+    "ground_truth": "ITEM_003 has an estimated sales of 29 units from 20226 impressions and a click-through rate of 2.18%.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "How does the average search rank of ITEM_003 relate to its click-through rate and conversion rate, and what does this imply about its overall performance in the Kitchen Blenders category?",
+    "ground_truth": "ITEM_003 has a relatively high average search rank of 6, which contributes to its click-through rate of 2.18%. However, despite this, the conversion rate of 6.59% indicates that while it attracts clicks, the conversion into sales is moderate, resulting in only 29 estimated sales. This suggests that while visibility is good, there may be factors affecting the purchase decision.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "Given the high impressions and average search rank of ITEM_003, how does its click-through rate and conversion rate compare to other items in the Kitchen Blenders category, and what might this indicate about its overall market performance despite the similar item overlap score of 0.63?",
+    "ground_truth": "ITEM_003 has a relatively low click-through rate of 2.18% and a conversion rate of 6.59%, suggesting that while it is visible in search results, it may not be effectively attracting customers compared to competitors. The similar item overlap score of 0.63 indicates a moderate level of competition, which could further impact its sales performance.",
+    "diagnosis_category": "Market Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_003 in the Kitchen Blenders category given its current impressions and conversion rates?",
+    "ground_truth": "Increase marketing efforts to boost visibility and optimize the product listing to enhance conversion rates.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_003 in the Kitchen Blenders category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the product's visibility through better search ranking strategies, optimizing the product listing for higher engagement, and exploring targeted marketing campaigns to increase the click-through rate and conversion rate.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "Given the performance metrics of ITEM_003, what strategic adjustments should be made to improve its market positioning in the Kitchen Blenders category, considering its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve market positioning, consider enhancing visibility through targeted advertising to increase impressions, optimizing product listings to improve click-through rates, and refining the sales funnel to boost conversion rates. Additionally, analyze competitor strategies to address the similar item overlap score of 0.63.",
+    "diagnosis_category": "Strategic Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_004?",
+    "ground_truth": "2.27%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "What is the estimated number of clicks for item ITEM_004 based on its impressions and click-through rate?",
+    "ground_truth": "175 clicks",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "Given the low click-through rate of 2.27% and the average search rank of 33 for ITEM_004, what factors could be contributing to its low sales despite a reasonable conversion rate of 7.38%?",
+    "ground_truth": "The low sales may be attributed to the high average search rank, which suggests that the item is not prominently displayed in search results, leading to fewer clicks despite a decent conversion rate. Additionally, the similar item overlap score of 0.1 indicates limited competition, but the low click-through rate suggests that the item may not be appealing enough to attract clicks.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_004 given its impressions, click-through rate, and conversion rate?",
+    "ground_truth": "The estimated sales performance of ITEM_004 is 12 units based on 7723 impressions, a click-through rate of 2.27%, and a conversion rate of 7.38%.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "Given the average search rank of 33 and a click-through rate of 2.27%, how might the low conversion rate of 7.38% and the similar item overlap score of 0.1 impact the overall sales performance of ITEM_004?",
+    "ground_truth": "The low conversion rate suggests that while ITEM_004 is being seen (7723 impressions), it is not compelling enough to convert clicks into sales, potentially due to competition from similar items (indicated by the overlap score of 0.1). This could lead to lower overall sales despite a reasonable number of impressions.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "Given the low click-through rate and average search rank of ITEM_004, how might the impressions and conversion rate impact its overall sales performance compared to other items in the same category?",
+    "ground_truth": "The low click-through rate suggests that while ITEM_004 has a significant number of impressions, it is not attracting enough clicks, which could be a result of its average search rank. This, combined with a relatively high conversion rate, indicates that those who do click are likely to purchase, but the overall sales remain low due to insufficient traffic. The similar item overlap score of 0.1 may also imply limited competition, but the item is not effectively capturing interest, leading to only 12 estimated sales despite high impressions.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_004 in the Laptop Accessories category given its current metrics?",
+    "ground_truth": "Increase marketing efforts to boost visibility and improve the click-through rate, as the current conversion rate indicates potential for higher sales with more traffic.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_004 in the Laptop Accessories category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the visibility of ITEM_004 through better search ranking optimization, increasing promotional efforts to boost click-through rates, and analyzing customer feedback to improve conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "Given the low click-through rate and average search rank of ITEM_004, what strategic adjustments could be made to improve its visibility and sales performance in the Laptop Accessories category?",
+    "ground_truth": "To improve visibility and sales performance, consider optimizing the product listing with better keywords, enhancing the product images, and increasing promotional efforts. Additionally, analyzing competitor strategies and adjusting pricing may also help.",
+    "diagnosis_category": "Strategic Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_005?",
+    "ground_truth": "1.52%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_005 based on its click-through rate and conversion rate?",
+    "ground_truth": "The estimated sales performance of ITEM_005 is 6 units, calculated from a click-through rate of 1.52% and a conversion rate of 1.82% based on 23376 impressions.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "Given the low click-through rate of 1.52% and the average search rank of 32 for ITEM_005, what could be the potential reasons for its low sales despite a high number of impressions?",
+    "ground_truth": "The low sales could be attributed to the poor visibility of the item due to its average search rank, which may not be compelling enough to drive clicks, combined with the relatively low click-through rate indicating that the item is not appealing to users searching for running shoes.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_005 in relation to its impressions and click-through rate?",
+    "ground_truth": "ITEM_005 has 23376 impressions and a click-through rate of 1.52%, leading to an estimated sales of 6 units.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "Given the impressions, click-through rate, and conversion rate for ITEM_005, how does its performance compare to the average performance of similar items in the Running Shoes category?",
+    "ground_truth": "ITEM_005 has a lower click-through rate and conversion rate compared to the average performance of similar items, indicating potential issues with visibility or appeal despite a high number of impressions.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "Given the high number of impressions and a relatively low conversion rate for ITEM_005, what factors could be contributing to its underperformance in sales despite a decent click-through rate and similar item overlap score?",
+    "ground_truth": "The underperformance in sales for ITEM_005 could be attributed to several factors, including the average search rank of 32 which may limit visibility, potential issues with product appeal or pricing compared to similar items, or a mismatch between customer expectations and the product offering as indicated by the similar item overlap score of 0.82.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_005 in the Running Shoes category given its current metrics?",
+    "ground_truth": "Increase marketing efforts to boost visibility and improve the click-through rate, as the item has a relatively low conversion rate despite a decent number of impressions.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_005 in the Running Shoes category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider optimizing the product listing for better visibility, enhancing the marketing strategy to increase click-through rates, and analyzing customer feedback to improve conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "Given the low conversion rate and high impressions for ITEM_005, what strategic changes could be implemented to improve its sales performance in the Running Shoes category?",
+    "ground_truth": "Consider optimizing the product listing for better visibility, enhancing the product description and images, adjusting pricing strategies, or increasing promotional efforts to drive higher conversion rates.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_006?",
+    "ground_truth": "1.64%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_006 given its impressions and conversion rate?",
+    "ground_truth": "The estimated sales performance of ITEM_006 is 2 units based on 3849 impressions and a conversion rate of 3.55%.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "Given the low click-through rate of 1.64% and the average search rank of 10 for ITEM_006, what might be the underlying reasons for its low sales despite a significant number of impressions?",
+    "ground_truth": "The low sales could be attributed to factors such as poor product visibility due to the average search rank being outside the top results, lack of compelling product information or images, or strong competition from similar items with higher appeal.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_006 in relation to its impressions and click-through rate?",
+    "ground_truth": "ITEM_006 has 3849 impressions and a click-through rate of 1.64%, leading to an estimated sales of 2 units.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "Given the impressions, click-through rate, and conversion rate of ITEM_006, how does its performance compare to the average performance of similar items in the Protein Bars category, considering the similar item overlap score?",
+    "ground_truth": "ITEM_006 has a lower click-through rate and conversion rate compared to the average performance of similar items, which may indicate that while it has decent visibility (3849 impressions), it is not converting as effectively as its competitors, especially with a similar item overlap score of 0.36 suggesting some competition.",
+    "diagnosis_category": "Performance Comparison",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "Given the low click-through rate and conversion rate for ITEM_006, how might the average search rank and similar item overlap score be influencing its overall sales performance?",
+    "ground_truth": "The average search rank of 10 suggests that ITEM_006 is not prominently displayed in search results, which could contribute to the low click-through rate of 1.64%. Additionally, a similar item overlap score of 0.36 indicates that there are several competing items that may be drawing potential customers away, further impacting both the click-through and conversion rates, ultimately leading to only 2 estimated sales despite 3849 impressions.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_006 in the Protein Bars category given its current metrics?",
+    "ground_truth": "Increase marketing efforts to boost visibility and improve click-through rates, as the item has a low conversion rate despite a reasonable number of impressions.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_006 in the Protein Bars category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the visibility of ITEM_006 through better search ranking optimization, increasing the click-through rate by refining the product title and description, and potentially offering promotions to boost conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "Given the low conversion rate and high impressions for ITEM_006, what strategic changes could be implemented to improve its sales performance in the Protein Bars category?",
+    "ground_truth": "Consider optimizing the product listing, enhancing marketing efforts, or adjusting pricing strategies to increase conversion rates and overall sales.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_007?",
+    "ground_truth": "1.88%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "What might be the reason for ITEM_007 having a high number of impressions but zero estimated sales?",
+    "ground_truth": "Despite having 1923 impressions, ITEM_007's low click-through rate of 1.88% and conversion rate of 1.56% suggest that while the item is being seen, it is not compelling enough to drive clicks or purchases, possibly due to factors like poor product appeal, pricing, or competition.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "Given the low click-through rate and zero estimated sales for ITEM_007, what could be the primary reason for its poor performance despite a relatively high impression count?",
+    "ground_truth": "The primary reason for ITEM_007's poor performance is likely its average search rank of 51, which may be too low to attract clicks, leading to a low click-through rate and consequently no sales.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "Given that ITEM_007 has a high number of impressions but a low click-through rate, what could be the potential reasons for its lack of sales despite its visibility?",
+    "ground_truth": "The low click-through rate indicates that while ITEM_007 is being seen frequently, it is not compelling enough to attract clicks, which could be due to factors such as poor product presentation, unappealing pricing, or lack of relevance to the audience. This, combined with the high impressions, suggests that the item is not resonating with potential buyers, leading to zero sales.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "Given the impressions, click-through rate, and conversion rate for ITEM_007, what factors might be contributing to its total estimated sales being 0 units despite having a reasonable number of impressions?",
+    "ground_truth": "The low click-through rate of 1.88% and conversion rate of 1.56% suggest that while the item is being seen, it is not compelling enough to drive clicks or purchases. Additionally, the average search rank of 51 indicates it may not be prominently displayed in search results, affecting visibility and sales.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "Given the high number of impressions and a relatively low click-through rate for ITEM_007, what factors could be contributing to its poor conversion rate despite a decent overlap score with similar items?",
+    "ground_truth": "The low conversion rate may be influenced by factors such as the average search rank being too low to attract serious buyers, the click-through rate indicating that while users are seeing the item, they are not finding it compelling enough to purchase, or potential issues with the product's presentation or pricing compared to similar items.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_007 in the Protein Bars category given its current metrics?",
+    "ground_truth": "Increase marketing efforts to boost visibility and improve click-through rates, as the item has a low conversion rate despite a reasonable number of impressions.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "What strategic adjustments can be made to improve the sales performance of ITEM_007 in the Protein Bars category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the visibility of ITEM_007 through better search ranking strategies, optimizing the product listing for higher click-through rates, and analyzing customer feedback to improve conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "What strategic changes should be implemented to improve the sales performance of ITEM_007 in the Protein Bars category, considering its low conversion rate despite a reasonable click-through rate and high impression count?",
+    "ground_truth": "Focus on enhancing product visibility through better search ranking, optimizing the product listing for higher conversion, and analyzing competitive positioning to address the high similar item overlap score.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_008?",
+    "ground_truth": "2.99%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "What is the estimated number of clicks for item ITEM_008 based on its impressions and click-through rate?",
+    "ground_truth": "555 clicks",
+    "diagnosis_category": "Click Performance",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "Given the click-through rate of 2.99% and a conversion rate of 5.76%, how effective is ITEM_008 in converting impressions into sales compared to industry standards for similar products?",
+    "ground_truth": "The effectiveness of ITEM_008 in converting impressions into sales is below industry standards, indicating potential issues with either the product appeal or the targeting of the audience.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_008 in relation to its impressions and click-through rate?",
+    "ground_truth": "ITEM_008 has an estimated sales of 32 units from 18589 impressions and a click-through rate of 2.99%.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "Given the impressions, average search rank, click-through rate, and conversion rate for ITEM_008, how does its performance compare to the average performance of similar items in the Wireless Headphones category?",
+    "ground_truth": "ITEM_008 has a relatively high click-through rate and conversion rate compared to similar items, indicating it performs well despite its average search rank. The similar item overlap score of 0.75 suggests that it competes closely with other items, which may affect its visibility and sales.",
+    "diagnosis_category": "Performance Comparison",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "Given the high impressions and average search rank of ITEM_008, how does its click-through rate and conversion rate compare to other items in the Wireless Headphones category, and what might this indicate about its overall market performance?",
+    "ground_truth": "Despite having a high number of impressions and a decent average search rank, ITEM_008's click-through rate of 2.99% and conversion rate of 5.76% suggest that it may not be resonating well with consumers compared to competitors, indicating potential issues with product appeal or marketing effectiveness.",
+    "diagnosis_category": "Market Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "What is the overall performance of ITEM_008 in terms of its sales potential based on its impressions and conversion rate?",
+    "ground_truth": "ITEM_008 has a total of 18589 impressions and a conversion rate of 5.76%, indicating a solid sales potential with estimated sales of 32 units.",
+    "diagnosis_category": "Sales Performance Evaluation",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_008 in the Wireless Headphones category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider optimizing the product listing for better visibility, enhancing marketing efforts to increase impressions, and analyzing customer feedback to improve the conversion rate.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "Given the performance metrics of ITEM_008, what strategic adjustments should be made to improve its market positioning in the Wireless Headphones category, considering its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve market positioning, consider enhancing visibility through targeted advertising to increase impressions, optimizing product listings to improve click-through rates, and refining the sales funnel to boost conversion rates. Additionally, analyze competitor offerings to identify potential gaps and leverage the similar item overlap score to differentiate ITEM_008.",
+    "diagnosis_category": "Strategic Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_009?",
+    "ground_truth": "0.71%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "What is the reason for the low sales of ITEM_009 despite having a significant number of impressions?",
+    "ground_truth": "The low sales can be attributed to the low click-through rate of 0.71%, indicating that while the item is being seen, it is not compelling enough to attract clicks, which ultimately affects sales.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "Given the low click-through rate of 0.71% and the average search rank of 50 for ITEM_009, what could be the potential reasons for its low sales despite a reasonable conversion rate of 6.12%?",
+    "ground_truth": "The low click-through rate suggests that the item is not attracting enough interest from users, possibly due to its average search rank being too low, which may lead to reduced visibility. Additionally, the overlap score of 0.68 indicates that there are similar items that may be competing more effectively for clicks, further impacting sales.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_009 in relation to its impressions and click-through rate?",
+    "ground_truth": "ITEM_009 has 6800 impressions and a click-through rate of 0.71%, leading to an estimated sales of 2 units.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "Given the impressions, click-through rate, and conversion rate of ITEM_009, what factors might be contributing to its low sales despite a reasonable number of impressions?",
+    "ground_truth": "The low sales of ITEM_009 can be attributed to its average search rank of 50, which may limit visibility and click-throughs, combined with a click-through rate of 0.71% that indicates low engagement. Additionally, the conversion rate of 6.12% suggests that while those who do click are likely to purchase, the overall traffic is insufficient to drive higher sales.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "Given the low click-through rate of 0.71% and the average search rank of 50 for ITEM_009, how might the high impressions of 6800 and the similar item overlap score of 0.68 contribute to its total estimated sales of only 2 units?",
+    "ground_truth": "The high number of impressions suggests visibility, but the low click-through rate indicates that the item is not compelling enough to attract clicks, possibly due to poor ranking or competition from similar items. The overlap score of 0.68 indicates significant competition, which may further dilute the item's performance, leading to low sales despite high visibility.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_009 in the Kitchen Blenders category given its current metrics?",
+    "ground_truth": "To improve sales performance, consider increasing visibility through enhanced marketing efforts, optimizing the product listing for better search rank, and analyzing customer feedback to address potential barriers to purchase.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_009 in the Kitchen Blenders category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the product's visibility through better search ranking, optimizing the product listing for higher click-through rates, and implementing targeted marketing strategies to increase conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "What strategic changes could be implemented to improve the sales performance of ITEM_009 in the Kitchen Blenders category, given its low conversion rate despite a significant number of impressions?",
+    "ground_truth": "To improve sales performance, consider enhancing product visibility through better search ranking, optimizing the product listing for higher engagement, and analyzing customer feedback to address potential barriers to conversion.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "What is the click-through rate for item ITEM_010?",
+    "ground_truth": "0.8%",
+    "diagnosis_category": "Performance Metrics",
+    "query_type": "Single-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "What is the estimated number of clicks for ITEM_010 based on its impressions and click-through rate?",
+    "ground_truth": "65",
+    "diagnosis_category": "Click Performance",
+    "query_type": "Single-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "Given the low click-through rate of 0.8% and the average search rank of 60 for item ITEM_010, what factors could be contributing to its poor performance despite a reasonable number of impressions?",
+    "ground_truth": "The low click-through rate may be influenced by the item's average search rank being relatively low, indicating it is not prominently displayed in search results. Additionally, the overlap score of 0.58 suggests significant competition from similar items, which could further dilute visibility and attractiveness to potential buyers.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Single-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "What is the estimated sales performance of ITEM_010 in relation to its impressions and click-through rate?",
+    "ground_truth": "The estimated sales of ITEM_010 are 1 unit, which is low given its 8128 impressions and a click-through rate of 0.8%.",
+    "diagnosis_category": "Sales Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Easy",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "Given the impressions, click-through rate, and conversion rate of ITEM_010, how does its performance compare to the average performance of similar items in the Wireless Headphones category, considering the similar item overlap score?",
+    "ground_truth": "ITEM_010 has a lower click-through rate and conversion rate compared to the average performance of similar items, indicating potential issues with visibility or appeal despite a reasonable number of impressions.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Medium",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "Given the low click-through rate of 0.8% and the average search rank of 60 for ITEM_010, how might the high impression count of 8128 and the similar item overlap score of 0.58 contribute to its total estimated sales of only 1 unit?",
+    "ground_truth": "The high impression count suggests visibility, but the low click-through rate indicates that the item is not compelling enough to attract clicks, possibly due to poor ranking or competition from similar items. The overlap score of 0.58 indicates a moderate level of competition from similar items, which may further dilute the item's performance and contribute to the low conversion rate.",
+    "diagnosis_category": "Performance Analysis",
+    "query_type": "Multi-hop",
+    "difficulty": "Hard",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "What strategic actions can be taken to improve the sales performance of ITEM_010 in the Wireless Headphones category given its current impressions and conversion rates?",
+    "ground_truth": "Increase marketing efforts to boost visibility and improve the click-through rate, potentially leading to higher sales.",
+    "diagnosis_category": "Sales Performance Improvement",
+    "query_type": "Abstract",
+    "difficulty": "Easy",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "What strategic adjustments could be made to improve the sales performance of ITEM_010 in the Wireless Headphones category given its current impressions, click-through rate, and conversion rate?",
+    "ground_truth": "To improve sales performance, consider enhancing the product's visibility through better search ranking optimization, increasing marketing efforts to boost click-through rates, and analyzing customer feedback to improve conversion rates.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Medium",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "What strategic adjustments should be made to improve the sales performance of ITEM_010 in the Wireless Headphones category, considering its low click-through rate and high average search rank?",
+    "ground_truth": "To improve sales performance, consider enhancing the product's visibility through better marketing strategies, optimizing the product listing for higher engagement, and analyzing competitor offerings to identify gaps in value proposition.",
+    "diagnosis_category": "Sales Performance Optimization",
+    "query_type": "Abstract",
+    "difficulty": "Hard",
+    "item_id": "ITEM_010"
+  }
+]

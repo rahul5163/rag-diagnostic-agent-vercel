@@ -1,0 +1,74 @@
+[
+    {
+      "id": "KB_RERANK",
+      "text": "Re-ranking is appropriate when an item demonstrates strong downstream performance but limited exposure. Indicators include high conversion rate relative to category benchmarks, stable click-through performance, and positive review sentiment, combined with low impression share or poor average rank position. When impressions are constrained but conversion is healthy, this suggests latent demand. Customers who see the item tend to purchase it. In such cases, improving visibility through ranking adjustments or featured placement can unlock incremental sales without additional promotional spend. Re-ranking should be monitored post-intervention to ensure that increased exposure does not degrade conversion efficiency."
+    },
+    {
+      "id": "KB_DELIST",
+      "text": "Delisting should be considered when both impressions and conversion rates are persistently below category benchmarks. Low exposure combined with weak customer engagement suggests structural demand weakness rather than discoverability issues. Additional warning signs include low repeat purchase rates, poor ratings, and negative margin contribution. In such scenarios, continued assortment presence may dilute category performance and crowd more viable items. Before delisting, evaluate whether pricing, imagery, or content improvements could reasonably shift demand signals."
+    },
+    {
+      "id": "KB_PROMOTION",
+      "text": "Promotional support is effective when impressions are adequate but conversion rates underperform category norms. This pattern may indicate price sensitivity, competitive disadvantage, or insufficient perceived value. Short-term discounts, bundling strategies, or targeted marketing campaigns can test whether demand is elastic. If conversion improves significantly during promotion windows, long-term pricing or positioning adjustments may be warranted. Promotions should not be used to artificially sustain structurally weak items."
+    },
+    {
+      "id": "KB_CANNIBALIZATION",
+      "text": "Cannibalization occurs when highly similar items compete for the same demand pool. Indicators include high embedding similarity overlap, declining sales for adjacent SKUs after assortment expansion, and stagnant category-level growth despite SKU count increases. When overlap scores exceed internal similarity thresholds, performance may be diluted across redundant items rather than reflecting true demand weakness. In such cases, assortment rationalization or differentiation strategies may improve overall category efficiency."
+    },
+    {
+      "id": "KB_VISIBILITY_GENERAL",
+      "text": "Visibility challenges may arise due to category-level competition rather than item-specific performance. High-performing categories often compress rank distributions, making it difficult for mid-tier items to gain sustained exposure even when conversion is stable. In such cases, structural category positioning strategies may be more effective than item-level adjustments."
+    },
+    {
+      "id": "KB_CONVERSION_INTERPRETATION",
+      "text": "Conversion rates must be interpreted relative to traffic quality. High conversion under low traffic conditions may reflect niche appeal rather than broad latent demand. Scaling exposure without validating demand elasticity can degrade conversion efficiency and reduce margin performance."
+    },
+    {
+      "id": "KB_ELASTICITY_TEST",
+      "text": "Demand elasticity analysis evaluates how sensitive purchase behavior is to pricing changes. When conversion fluctuates with minor price adjustments, the item may be highly price-sensitive. Elastic demand patterns often require promotional testing before structural assortment decisions."
+    },
+    {
+      "id": "KB_LOW_IMPRESSIONS_MISC",
+      "text": "Low impressions alone do not confirm discoverability issues. External factors such as seasonality, reduced search volume, or shifting consumer interest can suppress exposure metrics independent of ranking mechanics."
+    },
+    {
+      "id": "KB_CATEGORY_EXPANSION",
+      "text": "Category expansion strategies aim to increase assortment breadth to capture diverse customer preferences. Expanding SKU count may initially dilute impressions per item but can improve overall category engagement if managed correctly."
+    },
+    {
+      "id": "KB_MARGIN_OPTIMIZATION",
+      "text": "Margin optimization focuses on balancing pricing, discounting, and cost structure to maximize profitability. High conversion items may still underperform financially if margin contribution is weak."
+    },
+    {
+      "id": "KB_SEASONALITY",
+      "text": "Seasonal demand cycles can distort short-term performance metrics. Items that underperform outside peak periods may recover during high-demand windows without structural intervention."
+    },
+    {
+      "id": "KB_INVENTORY_CONSTRAINT",
+      "text": "Inventory constraints can artificially suppress impressions and sales. Out-of-stock rates or fulfillment limitations should be ruled out before attributing performance decline to demand weakness."
+    },
+    {
+      "id": "KB_ATTRIBUTION_MODEL",
+      "text": "Marketing attribution models distribute credit for conversions across multiple touchpoints. Variations in attribution logic can affect reported conversion rates without reflecting true behavioral change."
+    },
+    {
+      "id": "KB_TRAFFIC_QUALITY",
+      "text": "Traffic quality assessment evaluates the intent and readiness of visitors. High impressions from low-intent audiences may depress conversion without indicating product weakness."
+    },
+    {
+      "id": "KB_CTR_CONTEXT",
+      "text": "Click-through rate fluctuations can result from creative positioning, thumbnail imagery, or competitive placements. CTR should be interpreted alongside rank and impression trends."
+    },
+    {
+      "id": "KB_SIMILARITY_THRESHOLD",
+      "text": "Similarity thresholds must be calibrated carefully. Moderate embedding similarity does not always indicate cannibalization. Complementary items may share attributes while serving distinct purchase occasions."
+    },
+    {
+      "id": "KB_ASSORTMENT_DEPTH",
+      "text": "Assortment depth can increase perceived variety but may fragment demand signals across similar SKUs. Strategic pruning should consider both overlap metrics and incremental contribution analysis."
+    },
+    {
+      "id": "KB_STORE_LAYOUT",
+      "text": "Store layout optimization influences in-store discoverability and traffic flow. Physical placement strategies affect shopper navigation patterns and dwell time but are not directly linked to digital search rank performance."
+    }
+  ]

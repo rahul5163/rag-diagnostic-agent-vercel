@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-openai
+langchain-pinecone
+langchain-cohere
+ragas
+pinecone
+cohere
+datasets
+pandas
+numpy

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Diagnose whether ITEM_001 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_001"
+  },
+  {
+    "question": "Diagnose whether ITEM_002 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Weak",
+    "item_id": "ITEM_002"
+  },
+  {
+    "question": "Diagnose whether ITEM_003 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_003"
+  },
+  {
+    "question": "Diagnose whether ITEM_004 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_004"
+  },
+  {
+    "question": "Diagnose whether ITEM_005 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_005"
+  },
+  {
+    "question": "Diagnose whether ITEM_006 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_006"
+  },
+  {
+    "question": "Diagnose whether ITEM_007 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_007"
+  },
+  {
+    "question": "Diagnose whether ITEM_008 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_008"
+  },
+  {
+    "question": "Diagnose whether ITEM_009 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_009"
+  },
+  {
+    "question": "Diagnose whether ITEM_010 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_010"
+  },
+  {
+    "question": "Diagnose whether ITEM_011 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_011"
+  },
+  {
+    "question": "Diagnose whether ITEM_012 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_012"
+  },
+  {
+    "question": "Diagnose whether ITEM_013 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_013"
+  },
+  {
+    "question": "Diagnose whether ITEM_014 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_014"
+  },
+  {
+    "question": "Diagnose whether ITEM_015 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_015"
+  },
+  {
+    "question": "Diagnose whether ITEM_016 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_016"
+  },
+  {
+    "question": "Diagnose whether ITEM_017 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_017"
+  },
+  {
+    "question": "Diagnose whether ITEM_018 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_018"
+  },
+  {
+    "question": "Diagnose whether ITEM_019 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_019"
+  },
+  {
+    "question": "Diagnose whether ITEM_020 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_020"
+  },
+  {
+    "question": "Diagnose whether ITEM_021 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_021"
+  },
+  {
+    "question": "Diagnose whether ITEM_022 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_022"
+  },
+  {
+    "question": "Diagnose whether ITEM_023 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_023"
+  },
+  {
+    "question": "Diagnose whether ITEM_024 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Demand",
+    "item_id": "ITEM_024"
+  },
+  {
+    "question": "Diagnose whether ITEM_025 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_025"
+  },
+  {
+    "question": "Diagnose whether ITEM_026 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_026"
+  },
+  {
+    "question": "Diagnose whether ITEM_027 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_027"
+  },
+  {
+    "question": "Diagnose whether ITEM_028 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_028"
+  },
+  {
+    "question": "Diagnose whether ITEM_029 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_029"
+  },
+  {
+    "question": "Diagnose whether ITEM_030 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_030"
+  },
+  {
+    "question": "Diagnose whether ITEM_031 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_031"
+  },
+  {
+    "question": "Diagnose whether ITEM_032 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_032"
+  },
+  {
+    "question": "Diagnose whether ITEM_033 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_033"
+  },
+  {
+    "question": "Diagnose whether ITEM_034 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_034"
+  },
+  {
+    "question": "Diagnose whether ITEM_035 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_035"
+  },
+  {
+    "question": "Diagnose whether ITEM_036 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Cannibalization",
+    "item_id": "ITEM_036"
+  },
+  {
+    "question": "Diagnose whether ITEM_037 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Discoverability",
+    "item_id": "ITEM_037"
+  },
+  {
+    "question": "Diagnose whether ITEM_038 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Mixed",
+    "item_id": "ITEM_038"
+  },
+  {
+    "question": "Diagnose whether ITEM_039 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Discoverability",
+    "item_id": "ITEM_039"
+  },
+  {
+    "question": "Diagnose whether ITEM_040 is suffering from demand, discoverability, cannibalization, weakness, or mixed performance.",
+    "ground_truth": "Discoverability",
+    "item_id": "ITEM_040"
+  }
+]

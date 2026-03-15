@@ -1,0 +1,18 @@
+[
+  {
+    "id": "KB_RERANK",
+    "text": "\nRe-ranking is appropriate when an item demonstrates strong downstream performance\nbut limited exposure. Indicators include high conversion rate relative to category\nbenchmarks, stable click-through performance, and positive review sentiment,\ncombined with low impression share or poor average rank position.\n\nWhen impressions are constrained but conversion is healthy, this suggests latent\ndemand. Customers who see the item tend to purchase it. In such cases, improving\nvisibility through ranking adjustments or featured placement can unlock incremental\nsales without additional promotional spend.\n\nRe-ranking should be monitored post-intervention to ensure that increased exposure\ndoes not degrade conversion efficiency.\n"
+  },
+  {
+    "id": "KB_DELIST",
+    "text": "\nDelisting should be considered when both impressions and conversion rates are\npersistently below category benchmarks. Low exposure combined with weak customer\nengagement suggests structural demand weakness rather than discoverability issues.\n\nAdditional warning signs include low repeat purchase rates, poor ratings,\nand negative margin contribution. In such scenarios, continued assortment presence\nmay dilute category performance and crowd more viable items.\n\nBefore delisting, evaluate whether pricing, imagery, or content improvements\ncould reasonably shift demand signals.\n"
+  },
+  {
+    "id": "KB_PROMOTION",
+    "text": "\nPromotional support is effective when impressions are adequate but conversion\nrates underperform category norms. This pattern may indicate price sensitivity,\ncompetitive disadvantage, or insufficient perceived value.\n\nShort-term discounts, bundling strategies, or targeted marketing campaigns\ncan test whether demand is elastic. If conversion improves significantly during\npromotion windows, long-term pricing or positioning adjustments may be warranted.\n\nPromotions should not be used to artificially sustain structurally weak items.\n"
+  },
+  {
+    "id": "KB_CANNIBALIZATION",
+    "text": "\nCannibalization occurs when highly similar items compete for the same demand pool.\nIndicators include high embedding similarity overlap, declining sales for adjacent\nSKUs after assortment expansion, and stagnant category-level growth despite SKU count increases.\n\nWhen overlap scores exceed internal similarity thresholds, performance\nmay be diluted across redundant items rather than reflecting true demand weakness.\n\nIn such cases, assortment rationalization or differentiation strategies\nmay improve overall category efficiency.\n"
+  }
+]
