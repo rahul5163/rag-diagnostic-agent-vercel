@@ -27,7 +27,13 @@ export default function Home() {
         body: JSON.stringify({ question: input }),
       });
 
+      if (!res.ok) {
+        throw new Error("Failed to fetch data from Backend");
+      }
+
       const data = await res.json();
+
+      console.log(data);
 
       setMessages((prev) => [
         ...prev,

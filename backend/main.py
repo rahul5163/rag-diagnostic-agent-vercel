@@ -4,11 +4,18 @@ from pydantic import BaseModel
 #from backend.app.v1_baseline.agent import build_agent
 from backend.app.v2_rerank.agent import build_agent
 
+
+
 app = FastAPI()
+
+@app.get("/")
+def health():
+    return {"status": "agent running"}
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    #allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
