@@ -9,13 +9,13 @@ langchain-openai==0.1.25
 langgraph==0.1.19
 
 langchain-cohere
+langchain-pinecone
+
 cohere
+pinecone-client==3.2.2
 
 tavily-python
-
 python-dotenv
-pinecone
-langchain-pinecone
 
 numpy
 pydantic
