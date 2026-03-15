@@ -14,7 +14,7 @@ cohere
 tavily-python
 
 python-dotenv
-pinecone-client
+pinecone
 
 numpy
 pydantic
